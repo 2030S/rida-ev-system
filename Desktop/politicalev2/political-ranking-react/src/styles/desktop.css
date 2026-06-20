@@ -1,0 +1,29 @@
+@media screen and (min-width:1024px){
+
+  .desktop-layout{
+    display:grid;
+    grid-template-columns:380px 1fr;
+    gap:30px;
+    align-items:start;
+  }
+
+  #input-section{
+    width: 100%;
+    position:sticky;
+    top:20px;
+  }
+
+}
+
+  #ranking-section{
+    min-height:400px;
+    width:100%;
+    margin:0;
+  }
+
+  #participants-list{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+  }
+
